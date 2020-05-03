@@ -183,7 +183,7 @@ header table {
 }
 #photos {
     width:100%;
-    columns:2;
+    columns:1;
     column-gap:4%;
     z-index:1;
     transition:0.4s ease-in-out;
