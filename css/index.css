@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
-
+/* og color 255, 44, 90 */
 body {
     font-family: 'Poppins', sans-serif;
     padding:0px;
@@ -23,7 +23,7 @@ body {
     animation: rotate 0.56s infinite linear;
     width:50px;
     height:50px;
-    border:12px solid rgb(255, 44, 90);
+    border:12px solid rgb(192, 51, 91);
     border-bottom:12px solid #fff;
     border-radius:50%;
     margin:0;
@@ -51,38 +51,9 @@ header table {
 #navigation {
     width:80%;
 }
-#magnify {
-    width:100vw;
-    height:100vh;
-    background:rgba(0, 0, 0, 0.92);
-    position:fixed;
-    z-index:4;
-    display:none;
-    flex-direction: column;
-    justify-content:center;
-}
-#magnify h1 {
-    position:absolute;
-    top:0;
-    right:0;
-    margin:20px 40px;
-    color:#fff;
-    transition:0.4s ease-in-out;
-}
-#magnify h1:hover{
-    color:rgb(255, 44, 90);
-    cursor:pointer;
-}
-#img_here {
-    width:90%;
-    height:90%;
-    background-size:contain !important;
-    background-repeat:no-repeat !important;
-    margin:0px auto;
-}
 #logo {
     font-size:24px;
-    color:rgb(255, 44, 90);
+    color:rgb(192, 51, 91);
 }
 #navigation {
     text-align:right;
@@ -127,7 +98,7 @@ header table {
     text-align:left;
 }
 .social {
-    color:rgb(255, 44, 90);
+    color:rgb(192, 51, 91);
     font-size:23px;
     padding:12px 17px;
     border-radius:50%;
@@ -139,8 +110,8 @@ header table {
 .social:hover { 
     cursor: pointer;
     color:#fff;
-    background:rgb(255, 44, 90);
-    box-shadow:0px 10px 30px rgba(255, 66, 107,0.8);
+    background:rgb(192, 51, 91);
+    box-shadow:0px 10px 30px rgba(250, 33, 80,0.8);
 }
 .btn_one {
     font-size:18px;
@@ -156,31 +127,39 @@ header table {
     transition:0.4s ease-in-out;
 }
 .btn_one:hover {
-    box-shadow:0px 10px 30px rgba(255, 44, 90, 0.8);
+    box-shadow:0px 10px 30px rgba(250, 33, 80, 0.8);
     cursor:pointer;
     color:#fff;
-    background:rgb(255, 44, 90);
+    background:rgb(192, 51, 91);
 }
 #rightImage {
     width:100%;
     height:95vh;
-    /*
-    background:linear-gradient(0deg,rgba(255, 44, 90, 0.8),rgba(2255, 44, 90, 0.8)),url("https://images.unsplash.com/photo-1506057527569-6a0285b2fcc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=60") center center;
-    */
     background:url("../images/chris_portka_watery.jpg");
     background-size:cover;
     background-repeat:no-repeat;
 }
-#work {
+#songs {
     width:92vw;
     padding:6vh 4vw;
     font-weight:bold;
 }
-#work h1 {
+#songs h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(255, 44, 90);
+    border-bottom:4px solid rgb(192, 51, 91);
     width:6%;
 }
+#soundscapes {
+    width:92vw;
+    padding:6vh 4vw;
+    font-weight:bold;
+}
+#soundscapes h1 {
+    padding:5px 0px;
+    border-bottom:4px solid rgb(192, 51, 91);
+    width:6%;
+}
+/*
 #photos {
     width:100%;
     columns:1;
@@ -188,6 +167,7 @@ header table {
     z-index:1;
     transition:0.4s ease-in-out;
 }
+
 #photos img {
     width:100%;
     height:auto;
@@ -198,83 +178,47 @@ header table {
     transform: scale(1.1);
     cursor: pointer;
 }
-#bio {
+*/
+#soundtracks {
     width:92vw;
     padding:6vh 4vw;
-    font-weight:bold;
 }
-#bio h1 {
+#soundtracks h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(255, 44, 90);
-    width:8%;
+    border-bottom:4px solid rgb(192, 51, 91);
+    width:6%;
+}
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 #contact {
     width:92vw;
     padding:6vh 4vw;
+    font-weight:bold;
 }
 #contact h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(255, 44, 90);
-    width:10%;
+    border-bottom:4px solid rgb(192, 51, 91);
+    width:6%;
 }
-#contact table {
-    width:100%;
-}
-#contact table tr td {
-    width:50%;
-}
-#inner_div table{
-    width:100%;
-}
-#inner_div table tr td{
-    font-weight:bold;
-}
-#inner_table tr td{
-    padding:10px 20px !important;
-}
-#contact form {
-    width:100%;
-}
-#contact form input {
-    width:96%;
-    margin:20px 1%;
-    background:transparent;
-    border:0px;
-    border-bottom:3px solid rgba(255, 44, 90,0.5);
-    padding:8px 10px;
-    font-family: 'Poppins', sans-serif;
-    font-size:18px;
-    transition:0.4s ease-in-out;
-    color:#000;
-    font-weight:bold;
-}
-#contact form textarea {
-    width:96%;
-    margin:20px 1%;
-    padding:8px 10px;
-    border:0px;
-    border-bottom:3px solid rgba(255, 44, 90,0.5);
-    padding:8px 10px;
-    font-family: 'Poppins', sans-serif;
-    font-size:18px;
-    background:transparent;
-    resize:none;
-    transition:0.4s ease-in-out;
-    color:#000;
-    font-weight:bold;
-}
-#contact form input:focus {
-    outline:none;
-    border-bottom:3px solid rgba(255, 44, 90,1);
-}
-#contact form textarea:focus {
-    outline:none;
-    border-bottom:3px solid rgba(255, 44, 90,1);
-}
-#address {
-    position:relative;
-    top:-25px;
-    left:30px;
+.center_this_thing {
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
 }
 #footer {
     width:100%;
@@ -283,14 +227,12 @@ header table {
     font-weight:bold;
 }
 #footer a {
-    color:rgb(255, 44, 90);
+    color:rgb(192, 51, 91);
     text-decoration:none;
 }
-::placeholder {
-    color:#000;
-}
-button:focus {
-    outline:none;
+table.center {
+    margin-left:auto;
+    margin-right:auto;
 }
 ::-webkit-scrollbar {
     width:5px;
@@ -331,7 +273,7 @@ button:focus {
     #about {
         width:92% !important;
         height:75vh;
-        padding-top:20vh !important;
+        padding-top:5vh !important;
         text-align:center;
         padding:0px 4%;
     }
@@ -346,12 +288,12 @@ button:focus {
     padding:6px 30px;
     width:60%;
     margin:4vh auto;
-    box-shadow:0px 10px 20px rgba(255, 44, 90, 0.8);
-    background:rgb(255, 44, 90);
+    box-shadow:0px 10px 20px rgba(192, 51, 91, 0.8);
+    background:rgb(192, 51, 91);
     color:#fff;
     }
     .btn_one:hover {
-        box-shadow:0px 10px 40px rgba(255, 44, 90, 0.8);
+        box-shadow:0px 10px 40px rgba(192, 51, 91, 0.8);
         cursor:pointer;
     }
     #contact table tr td {
@@ -391,24 +333,4 @@ button:focus {
     #navigation a {
         color:#000;
     }
-}
-
-.video-container {
-    overflow: hidden;
-    position: relative;
-    width:100%;
-}
-
-.video-container::after {
-    padding-top: 56.25%;
-    display: block;
-    content: '';
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
