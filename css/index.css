@@ -7,6 +7,7 @@ body {
     max-width:100vw;
     overflow-x:hidden;
     scroll-behavior: smooth;
+    background-color: rgb(231, 229, 222);
 }
 #loading {
     width: 100vw;
@@ -249,17 +250,6 @@ table.center {
 }
 
 @media (max-width: 1000px){
-    #photos {
-    columns:1;
-    column-gap:0%;
-    }
-    #photos img {
-        margin:2% 0px;
-    }
-    #photos img:hover {
-        transform: scale(1);
-        cursor: pointer;
-    }
     #rightImage {
         display:none;
     }
@@ -285,17 +275,18 @@ table.center {
         text-align:center;
     }
     .btn_one {
-    padding:6px 30px;
-    width:60%;
-    margin:4vh auto;
-    box-shadow:0px 10px 20px rgba(192, 51, 91, 0.8);
-    background:rgb(192, 51, 91);
-    color:#fff;
+        padding:6px 30px;
+        width:60%;
+        margin:4vh auto;
+        box-shadow:0px 10px 20px rgba(192, 51, 91, 0.8);
+        background:rgb(192, 51, 91);
+        color:#fff;
     }
     .btn_one:hover {
         box-shadow:0px 10px 40px rgba(192, 51, 91, 0.8);
         cursor:pointer;
     }
+    
     #contact table tr td {
         width:100%;
         display:block;
@@ -309,18 +300,12 @@ table.center {
     #contact form textarea {
         width:90%;
     }
-    #work h1 {
-        width:19%;
-    }
-    #bio h1 {
-        width:25%;
-    }
     #contact h1 {
         width:33%;
     }
     header {
-        width:96vw;
-        background:#fff;
+        width:100vw;
+        background:rgb(238, 235, 233);
         padding:4vh 2vw;
         position:absolute;
     }
