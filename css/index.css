@@ -122,6 +122,7 @@ header table {
     border:3px solid rgb(255, 44, 90);
     padding:8px 40px;
     width:35%;
+    min-height: 80px;
     border-radius:80px;
     font-weight:bold;
     margin:2vh 0px;
@@ -139,6 +140,9 @@ header table {
     background:url("../images/chris_portka_watery.jpg");
     background-size:cover;
     background-repeat:no-repeat;
+}
+#smallImage {
+    display:none;
 }
 #aboutbio {
     margin-top: 20vh;
@@ -268,6 +272,17 @@ table.center {
     #rightImage {
         display:none;
     }
+    /*
+    #smallImage {
+        display:block;
+        width:80%;
+        height:50vh;
+        margin: 10%;
+        background:url("../images/chris_portka_watery.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;    
+    }
+    */
     #top_part {
         border:0px;
     }
@@ -279,6 +294,7 @@ table.center {
         width:92% !important;
         height:75vh;
         margin-top:20vh !important;
+        margin-bottom:20vh !important;
         text-align:center;
         padding:0px 4%;
     }
