@@ -141,6 +141,7 @@ header table {
     background-repeat:no-repeat;
 }
 #aboutbio {
+    margin-top: 20vh;
     width:84% !important;
     height:50vh;
     display:flex;
@@ -150,7 +151,7 @@ header table {
     padding:0px 8%;
 }
 #aboutbio h1 {
-    padding-top: 10vh;
+    margin-top: 10vh;
     font-size:45px;
     word-wrap:break-word;
 }
@@ -277,7 +278,7 @@ table.center {
     #about {
         width:92% !important;
         height:75vh;
-        padding-top:5vh !important;
+        margin-top:20vh !important;
         text-align:center;
         padding:0px 4%;
     }
@@ -290,7 +291,6 @@ table.center {
     }
     .btn_one {
         padding:6px 30px;
-        width:60%;
         margin:4vh auto;
         box-shadow:0px 10px 20px rgba(192, 51, 91, 0.8);
         background:rgb(192, 51, 91);
