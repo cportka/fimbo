@@ -272,18 +272,19 @@ table.center {
     #rightImage {
         display:none;
     }
-    /*
+    
     #smallImage {
         display:block;
-        width:80%;
-        height:50vh;
-        margin: 10%;
+        width:100%;
+        height:50vw;/*
+        margin-top: -15vw;
+        margin-bottom: -30vw;*/
         background:url("../images/chris_portka_watery.jpg");
-        background-size:cover;
-        background-repeat:no-repeat;    
+        background-size:50%;
+        background-repeat:no-repeat; 
+        background-position: center;   
     }
-    */
-    #top_part {
+        #top_part {
         border:0px;
     }
     #top_part tr td{
@@ -291,8 +292,8 @@ table.center {
         text-align:center;
     }
     #about {
-        width:92% !important;
-        height:75vh;
+        /*width:92% !important;
+        height:75vh;*/
         margin-top:20vh !important;
         margin-bottom:20vh !important;
         text-align:center;
