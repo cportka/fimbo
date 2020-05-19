@@ -48,9 +48,37 @@
     },1200);
   
  function incrementValue() {
+    //Get old number and increment
     var value = parseInt(document.getElementById('number').value, 10);
     value = isNaN(value) ? 0 : value;
     value++;
+
+    //Set new number
     document.getElementById('number').value = value;
     document.getElementById('number').innerHTML = value;
+
+    var magic = "\t";
+    //Set some magical numbers
+    if (value >= 2) {
+        magic = magic + " 2";
+    }
+    if (value >= 7) {
+        magic = magic + " 7";
+    }
+    if (value >= 17) {
+        magic = magic + " 17";
+    }
+    if (value >= 22) {
+        magic = magic + " 22";
+    }
+    if (value >= 27) {
+        magic = magic + " 27";
+    }
+    if (value >= 77) {
+        magic = magic + " 77";
+    }
+    if (value >= 101) {
+        magic = magic + " 101!";
+    }
+    document.getElementById('magic').innerHTML = magic;
 }
