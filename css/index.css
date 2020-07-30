@@ -225,6 +225,17 @@ header table {
     width: 100%;
     height: 100%;
 }
+#blog {
+    width:92vw;
+    margin:6vh 4vw;
+    padding: 2vh 2vh;
+    background:rgb(235, 235, 235);
+}
+#blog h1 {
+    padding:5px 0px;
+    border-bottom:4px solid rgb(192, 51, 91);
+    width:6%;
+}
 #contact {
     width:92vw;
     padding:6vh 4vw;
