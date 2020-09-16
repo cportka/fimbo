@@ -9,6 +9,18 @@
         from: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css
         https://code.jquery.com/jquery-3.3.1.min.js
         https://use.fontawesome.com/releases/v5.13.0/css/all.mins.css <-- also needs webfonts 
+
+        for fb:
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0" nonce="ErJGtTyY"></script>
+
+      <p>
+            <div class="fb-like" data-href="https://www.facebook.com/cportkamusic" data-width="" data-layout="button" data-action="like" data-size="small" data-share="true"></div>
+        </p>
+
+        for youtube:
+            <script src="https://apis.google.com/js/platform.js"></script>
+<div class="g-ytsubscribe" data-channelid="UCQor5ElRkts7VrNM_AC9Utw" data-layout="default" data-theme="dark" data-count="hidden"></div>
     -->
     <link href="css/animate.min.css" rel="stylesheet">
     <script src="js/jquery-3.3.1.min.js"></script>
@@ -23,6 +35,24 @@
     <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#603cba">
     <meta name="theme-color" content="#4d0000">
+
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '3352362468120411');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=3352362468120411&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
 </head>
 <body>
     <div id="loading">
@@ -33,10 +63,10 @@
             <tr>
                 <td id="logo">c.portka</td>
                 <td id="navigation">
-                    <a href="#aboutbio">about</a>
-                    <a href="#songs">songs</a>
-                    <a href="#soundscapes">soundscapes</a>
-                    <a href="#soundtracks">soundtracks</a>
+                    <a href="#hello">hello</a>
+                    <a href="#bio">bio</a>
+                    <a href="#music">music</a>
+                    <a href="#endlessentertainment">endless entertainment</a>
                     <a href="https://medium.com/@chrisportka" target="_blank">blog</a>
                     <a href="#contact">contact</a>
                 </td>
@@ -51,12 +81,14 @@
                 <pre><dev id="number"> </dev><dev id="magic"></dev></pre>
                 <table>
                     <tr>
-                        <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://www.facebook.com/cportka" target="_blank"><i class="fab fa-facebook"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:1.8s;"><a class="social" href="https://open.spotify.com/artist/43at57fnGGql0yMxsOt9CS?si=835aRldEQOG3ma4o4ydNZA" target="_blank"><i class="fab fa-spotify"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.0s;"><a class="social" href="https://music.apple.com/us/artist/chris-portka/1528866398" target="_blank"><i class="fab fa-apple"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://www.facebook.com/cportkamusic" target="_blank"><i class="fab fa-facebook"></i></a></td>
                         <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://twitter.com/DJ_Pants" target="_blank"><i class="fab fa-twitter"></i></a></td>
                         <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="https://www.instagram.com/_c.lp_/" target="_blank"><i class="fab fa-instagram"></i></a></td>
                         <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social" href="https://cportka.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp"></i></a></td>
                         <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social" href="https://www.youtube.com/channel/UCQor5ElRkts7VrNM_AC9Utw" target="_blank"><i class="fab fa-youtube"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social" href="https://www.tiktok.com/@chrisportka?lang=en" target="_blank"><i class="fab fa-tiktok"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:3.2s;"><a class="social" href="https://www.tiktok.com/@chrisportka" target="_blank"><i class="fab fa-tiktok"></i></a></td>
                     </tr>
                 </table>
             </td>
@@ -64,41 +96,54 @@
         </tr>
     </table>
     <dev id="smallImage" class="animated fadeIn" style="animation-delay:2.2s;"></dev>
-    <div id="aboutbio">
-        <h1>about</h1>
+    <div id="hello">
         <p>
-            how's everybody doing tonight?  i'm chris portka.  i write, perform, and produce music.
+             
+        </p>
+        <h1>hello</h1>
+        <p>
+            = --
         </p>
         <p>
-            below are some works i made - original music, soundscapes for <a href="https://www.youtube.com/watch?v=60RgwWc-WEg" target="_blank">surreal</a> videos, <a href="https://www.youtube.com/watch?v=Xz775jp7hK0" target="_blank">commercial</a> soundtracks, and <a href="https://www.youtube.com/watch?v=UBd9S0CPiW0" target="_blank">more</a>.<a href="https://www.youtube.com/watch?v=hMrcgEJiezI" target="_blank">.</a>
-            <br>
-            i have a <a href="https://www.youtube.com/channel/UCQor5ElRkts7VrNM_AC9Utw" target="_blank">youtube</a> a <a href="https://www.instagram.com/_c.lp_/" target="_blank">instagram</a> a <a href="https://cportka.bandcamp.com/" target="_blank">bandcamp</a> a <a href="https://www.tiktok.com/@chrisportka?lang=en" target="_blank">tik tok</a> and <a href="http://www.cloynecourtrecords.com" target="_blank">etc</a>.
+            Ok ok ok.
         </p>
         <p>
-            i also do contract work. <a href="#contact">contact me</a> for rates.
+            how's everybody doing tonight? i'm chris portka. i write, perform, and produce music and visual stuff.  i enjoy writing and singing.
+        </p>
+        <p>
+            i'm on all your fave streaming like <a href="https://open.spotify.com/artist/43at57fnGGql0yMxsOt9CS?si=835aRldEQOG3ma4o4ydNZA" target="_blank">spotify</a> | <a href="https://music.apple.com/us/artist/chris-portka/1528866398" target="_blank">apple</a> | <a href="https://us.napster.com/artist/chris-portka" target="_blank">napster</a> | <a href="https://www.deezer.com/us/artist/104888632" target="_blank">deezer</a> | <a href="https://www.amazon.com/s?k=Chris+Portka&i=digital-music&search-type=ss&ref=ntt_srch_drd_B08GJB5RGX" target="_blank">amazon</a> | <a href="https://cportka.bandcamp.com/" target="_blank">bandcamp</a>
+        </p>
+        <p>
+            i've also got a lot of socials like <a href="https://www.youtube.com/channel/UCQor5ElRkts7VrNM_AC9Utw" target="_blank">youtube</a> | <a href="https://www.instagram.com/_c.lp_/" target="_blank">instagram</a> | <a href="https://cportka.bandcamp.com/" target="_blank">bandcamp</a> | <a href="https://www.tiktok.com/@chrisportka" target="_blank">tik tok</a> | <a href="https://www.facebook.com/cportkamusic" target="_blank">facebook like button</a> | <a href="https://medium.com/@chrisportka" target="_blank">medium</a> & <a href="http://www.cloynecourtrecords.com" target="_blank">etc.</a>
+        </p>
+        <p>
+            <a href="#contact">contact me</a> if you want to give me some money or just venmo <a href="https://venmo.com/portka" target="_blank">@portka</a>
         </p>
     </div>
-    <div id="songs">
-        <h1>songs</h1>
-              <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/iT3rwDaXrD0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-    </div>
-    <div id="soundscapes">
-        <h1>soundscapes</h1>
-              <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/HPd2wkumsKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-    </div>
-    <div id="soundtracks">
-        <h1>soundtracks</h1>
-        <div class="center_this_thing">
-            <iframe style="border: 0; max-width: 700px; width: 100%; height: 340px;" src="https://bandcamp.com/EmbeddedPlayer/album=2187960932/size=large/bgcol=ffffff/linkcol=de270f/artwork=none/transparent=true/" seamless><a href="http://cportka.bandcamp.com/album/soundtracks">Soundtracks by C. Portka</a></iframe>
+    <div id="bio">
+        <h1>bio</h1>
+        <div class="picture-frame">
         </div>
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/3WEcb7MHOjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+        <p>
+        Chris Portka is a singer-songwriter and multi-instrumentalist who has been making music for two decades. He has spent most of his life in California, and most of the 2000's in the San Francisco Bay Area. His music is reflective of the East Bay's beautifully ragged aesthetic, fusing eclectic elements to create something homey and real. He makes music that is expressive, exploring themes of anguish, boredom, dread, responsibility, and triumph. He does this both as a songwriter committed to the craft of lyrical folk and rock tunes and through experimental and instrumental work that seeks to evoke the ineffable dimensions of those moods that so often overtake us. Taking inspiration from the poetic precision of the likes of Bob Dylan and David Berman, and indulging in the prophetic cacophony of artists like Skip Spence and Captain Beefheart, Chris makes sounds that probe our inner lives and pose the musical question: how's everybody doin' tonight? - Thomas Meagher
+        </p>
     </div>
+    <div id="music">
+        <h1>music</h1>
+              <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/I-JqUrfcdKA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="center_this_thing">
+                <iframe style="border: 0; max-width: 700px; width: 100%; height: 340px;" src="https://bandcamp.com/EmbeddedPlayer/album=2187960932/size=large/bgcol=ffffff/linkcol=de270f/artwork=none/transparent=true/" seamless><a href="http://cportka.bandcamp.com/album/soundtracks">Soundtracks by C. Portka</a></iframe>
+            </div>
+    
+    </div>
+    <div id="endlessentertainment">
+        <h1>endless entertainment</h1>
+        kind of like that thing in Infinite Jest where everyone sits around and ingests and become blobs..
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/videoseries?list=PLP2Z_k0vFwAp0w7_PGDcKcVQIIejWyFht" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
     <!--
     <div id="blog">
         <h1>blog</h1>
@@ -132,14 +177,16 @@
         <tr>
             <table class="center">
                 <tr>
-                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://www.facebook.com/cportka" target="_blank"><i class="fab fa-facebook"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:1.8s;"><a class="social" href="https://open.spotify.com/artist/43at57fnGGql0yMxsOt9CS?si=835aRldEQOG3ma4o4ydNZA" target="_blank"><i class="fab fa-spotify"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.0s;"><a class="social" href="https://music.apple.com/us/artist/chris-portka/1528866398" target="_blank"><i class="fab fa-apple"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://www.facebook.com/cportkamusic" target="_blank"><i class="fab fa-facebook"></i></a></td>
                     <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://twitter.com/DJ_Pants" target="_blank"><i class="fab fa-twitter"></i></a></td>
                     <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="https://www.instagram.com/_c.lp_/" target="_blank"><i class="fab fa-instagram"></i></a></td>
                     <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social" href="https://cportka.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp"></i></a></td>
                     <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social" href="https://www.youtube.com/channel/UCQor5ElRkts7VrNM_AC9Utw" target="_blank"><i class="fab fa-youtube"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social" href="https://www.tiktok.com/@chrisportka?lang=en" target="_blank"><i class="fab fa-tiktok"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:3.2s;"><a class="social" href="https://www.tiktok.com/@chrisportka" target="_blank"><i class="fab fa-tiktok"></i></a></td>
                 </tr>
-            </table>
+        </table>
         </tr>
     </table>
 
