@@ -34,6 +34,7 @@ body {
     100% {transform: rotate(360deg);}
 }
 header {
+    overflow-x:hidden;
     width:92vw;
     padding:6vh 4vw;
     position:fixed;
@@ -145,6 +146,7 @@ header table {
     display:none;
 }
 #hello {
+    overflow-x:hidden;
     margin-top: 20vh;
     width:84% !important;
     height:50vh;
@@ -160,6 +162,7 @@ header table {
     word-wrap:break-word;
 }
 #bio {
+    overflow-x:hidden;
     margin-top: 30vh;
     width:92vw;
     padding:6vh 4vw;
@@ -176,6 +179,7 @@ header table {
     width:6%;
 }
 .picture-frame {
+    overflow-x:hidden;
     border: 3px solid rgb(5, 4, 4);
     background: #eee;
     margin: 10px 10px;
@@ -191,6 +195,7 @@ header table {
     background-position: center;
 }
 #music {
+    overflow-x:hidden;
     width:92vw;
     padding:6vh 4vw;
     font-weight:bold;
@@ -221,6 +226,7 @@ header table {
 }
 */
 #endlessentertainment {
+    overflow-x:hidden;
     width:92vw;
     padding:6vh 4vw;
 }
