@@ -146,7 +146,6 @@ header table {
     display:none;
 }
 #hello {
-    overflow-x:hidden;
     margin-top: 20vh;
     width:84% !important;
     height:50vh;
@@ -279,6 +278,7 @@ header table {
     text-align: center;
 }
 #footer {
+    overflow-x:hidden;
     width:100%;
     padding:10vh 0px;
     text-align:center;
