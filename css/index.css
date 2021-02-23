@@ -177,7 +177,7 @@ header table {
     border-bottom:4px solid rgb(192, 51, 91);
     width:6%;
 }
-.picture-frame {
+.picture-frame-1 {
     overflow-x:hidden;
     border: 3px solid rgb(5, 4, 4);
     background: #eee;
@@ -188,7 +188,23 @@ header table {
     height:200px;
     margin-top: 5vw;
     margin-bottom: 5vw;
-    background:url("../images/square150.png");
+    background:url("../images/chris_portka_shrug.jpg");
+    /*background-size:100%;*/
+    background-repeat:no-repeat; 
+    background-position: center;
+}
+.picture-frame-2 {
+    overflow-x:hidden;
+    border: 3px solid rgb(5, 4, 4);
+    background: #eee;
+    margin: 10px 10px;
+    padding: 15px 10px;
+    min-height: 150px; 
+    display:block;
+    height:200px;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    background:url("../images/chris_portka_hands.jpg");
     /*background-size:100%;*/
     background-repeat:no-repeat; 
     background-position: center;
